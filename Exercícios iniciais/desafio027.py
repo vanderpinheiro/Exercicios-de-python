@@ -1,0 +1,5 @@
+name = input('Digite seu nome:').strip()
+c= name.split()
+print('Seu nome começa com {}.'.format(c[0]))
+s = name.rfind(' ')
+print('Seu nome termina com{}.'.format(name[s:]))
